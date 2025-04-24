@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #0a0a0a, #000);
+    color: white;
+  }
+  
+  .theater {
+    background-color: #3a1f1f;
+    padding: 2rem;
+    border: 10px solid #555;
+    border-radius: 20px;
+    box-shadow: 0 0 40px #00f, 0 0 20px #f00 inset;
+    max-width: 90%;
+    width: 600px;
+    text-align: center;
+  }
+  
+  .theater h1 {
+    margin: 10px 0 20px;
+    font-size: 2em;
+    color: lime;
+  }
+  
+  .subtitle {
+    font-size: 1.1em;
+    color: #76ff76;
+  }
+  
+  .video-container {
+    margin: 20px 0;
+  }
+  
+  video {
+    width: 100%;
+    max-width: 100%;
+    border: 4px solid white;
+    border-radius: 12px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 15px;
+  }
+  
+  .button-group button {
+    background-color: #965858;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .button-group button:hover {
+    background-color: #666;
+  }
+  
